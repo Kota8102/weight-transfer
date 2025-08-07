@@ -94,9 +94,9 @@ def apply_diff(
 
 if __name__ == "__main__":
     apply_diff(
-        path_source="Qwen/Qwen2.5-1.5B-Instruct",  # 学習済みモデル
-        path_base="Qwen/Qwen2.5-1.5B",  # ベースモデル
-        path_target="Qwen/Qwen2.5-Math-1.5B",  # 適用先（別のモデルでも可）
+        path_source="Qwen/Qwen3-14B",  # 学習済みモデル
+        path_base="Qwen/Qwen3-14B-Base",  # ベースモデル
+        path_target="Kota8102/qwen3-14b-test",  # 適用先（別のモデルでも可）
         path_output="./output_model",  # 出力先
         device="mps",
     )
